@@ -19,12 +19,13 @@ description:
 
 首先定义一个三相插座的接口，里面有个接口使用使用三相电流供电
 
-``` java
-public interface ThreePluginIf {
-    //使用三相电流供电
-    public void powerWithThree();
-}
-```
+{% highlight java linenos %}
+
+    public interface ThreePluginIf {
+        //使用三相电流供电
+        public void powerWithThree();
+    }
+{% endhighlight %}
 不同国家电流分类不同，假设我有个国标二相电流类，它有个方法，如下
 
 ``` java
