@@ -13,4 +13,5 @@ github: aliveaway
 pygments: true
 safe: true
 paginate: 20
+highlighter: rouge
 about: "这里是 youlv 的个人博客，创建于 2016 年。欢迎观赏、建议、拍砖……"
